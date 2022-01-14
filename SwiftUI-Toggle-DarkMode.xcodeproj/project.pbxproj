@@ -11,6 +11,8 @@
 		DAA6EC98278DD8350034C36C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6EC97278DD8350034C36C /* ContentView.swift */; };
 		DAA6EC9A278DD8360034C36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6EC99278DD8360034C36C /* Assets.xcassets */; };
 		DAA6EC9D278DD8360034C36C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6EC9C278DD8360034C36C /* Preview Assets.xcassets */; };
+		DAA6ECA4278DD8460034C36C /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6ECA3278DD8460034C36C /* ConfigView.swift */; };
+		DAA6ECA6278DDAD30034C36C /* DarkModeSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6ECA5278DDAD30034C36C /* DarkModeSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DAA6EC97278DD8350034C36C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAA6EC99278DD8360034C36C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA6EC9C278DD8360034C36C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAA6ECA3278DD8460034C36C /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		DAA6ECA5278DDAD30034C36C /* DarkModeSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				DAA6EC95278DD8350034C36C /* SwiftUI_Toggle_DarkModeApp.swift */,
+				DAA6ECA5278DDAD30034C36C /* DarkModeSetting.swift */,
 				DAA6EC97278DD8350034C36C /* ContentView.swift */,
+				DAA6ECA3278DD8460034C36C /* ConfigView.swift */,
 				DAA6EC99278DD8360034C36C /* Assets.xcassets */,
 				DAA6EC9B278DD8360034C36C /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA6ECA4278DD8460034C36C /* ConfigView.swift in Sources */,
+				DAA6ECA6278DDAD30034C36C /* DarkModeSetting.swift in Sources */,
 				DAA6EC98278DD8350034C36C /* ContentView.swift in Sources */,
 				DAA6EC96278DD8350034C36C /* SwiftUI_Toggle_DarkModeApp.swift in Sources */,
 			);
